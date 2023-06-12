@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Project Catalog Page</title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script src="js/jquery-3.7.0.min.js"></script>
+        
+        <script src="js/main.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <div class="top"></div>
+                <div class="middle"></div>
+                <nav class="topmenu">
+                    <a class="home" href="index.html"><span>Главная</span></a>
+                    <a class="catalog current" href="catalog.html"><span>Каталог</span></a>
+                    <a class="product" href="product.html"><span>Товар</span></a>
+                    <a class="order" href="order.html"><span>Корзина</span></a>
+                    <a class="contacts" href="#"><span>Контакты</span></a>
+                </nav>
+            </div>
+        </header>
+        
+        <main class="catalog">
+            <section class="container">
+                <aside>
+                    <nav class="accordion">
+                        <h3>Каталог <span></span></h3>
+                        
+                        <ul>
+                            <li class="level1">
+                                <a href="#">Попугаи</a>
+                                
+                                <span></span>
+                                
+                                <ul>
+                                    <li class="level2">
+                                        <a href="#">Попугаи большие</a>
+                                        
+                                        <span></span>
+                                        
+                                        <ul>
+                                            <li class="level3">
+                                                <a href="#">Капибары бешеные</a>
+                                            </li>
+                                            
+                                            <li class="level3">
+                                                <a href="#">Капибары нормальные</a>
+                                            </li>
+                                            
+                                            <li class="level3">
+                                                <a href="#">Капибары дружелюбные</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="level2">
+                                        <a href="#">Попугаи средние</a>
+                                    </li>
+                                    
+                                    <li class="level2">
+                                        <a href="#">Попугаи мелкие</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <li class="level1">
+                                <a href="#">Книги о попугаях</a>
+                                
+                                <span></span>
+                                
+                                <ul>
+                                    <li class="level2">
+                                        <a href="#">Научные книги о попугаях</a>
+                                    </li>
+                                    
+                                    <li class="level2">
+                                        <a href="#">Детские сказки о попугаях</a>
+                                    </li>
+                                    
+                                    <li class="level2">
+                                        <a href="#">Инструкция к попугаям</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <li class="level1">
+                                <a href="#">Клетки для попугаев</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                
+                <article>
+                    <button type="button" class="changeview"></button>
+                    
+                    <h1>Попугаи в нашем магазине</h1>
+                    
+                    <div class="catalog_content">
+                        <div class="catalog_item idtovar" data-tovarid="789">
+                            <img src="images/Какаду.jpg" alt="Kakadu">
+                            <h4 class="tovarname">КАКАДУ</h4>
+                            <p>Какаду - это царь попугаев.</p>
+                            <div class="price">180000</div>
+                            <div class="item_shadow">
+                                <a href="product.html">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item idtovar" data-tovarid="123">
+                            <img src="images/Ара.jpg" alt="Ara">
+                            <h4 class="tovarname">АРА</h4>
+                            <p>"Попугай АРА !!!</p>
+                            <div class="price">150000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item idtovar" data-tovarid="456">
+                            <img src="images/Жако.jpg" alt="Zhako">
+                            <h4 class="tovarname">Жако</h4>
+                            <p>Попугай Жако</p>
+                            <div class="price">95000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item">
+                            <img src="images/Розелла.jpg" alt="rozella">
+                            <h4>Розелла</h4>
+                            <p>Розелла попугай</p>
+                            <div class="price">81000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item">
+                            <img src="images/Амазон.jpg" alt="amazon">
+                            <h4>Амазон</h4>
+                            <p>Попугай Амазон</p>
+                            <div class="price">33000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item">
+                            <img src="images/Ожереловый.jpg" alt="ozerelovii">
+                            <h4>Ожереловый</h4>
+                            <p>Ожереловый попугай</p>
+                            <div class="price">55000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item">
+                            <img src="images/Калита.jpg" alt="kalita">
+                            <h4>Калита</h4>
+                            <p>Калита попугай.</p>
+                            <div class="price">41000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item">
+                            <img src="images/Корелла.jpg" alt="korella">
+                            <h4>Корелла</h4>
+                            <p>Корелла</p>
+                            <div class="price">36000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item">
+                            <img src="images/Какарик.jpg" alt="kakarik">
+                            <h4>Какарик</h4>
+                            <p>Попугай Какарик</p>
+                            <div class="price">54000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item">
+                            <img src="images/Сенегальский.jpg" alt="senegalskiy">
+                            <h4>Сенегальский</h4>
+                            <p>Сенегальский попугай</p>
+                            <div class="price">31000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item">
+                            <img src="images/Волнистый.jpg" alt="volnistii">
+                            <h4>Волнистый</h4>
+                            <p>Волнистый попугай</p>
+                            <div class="price">23000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog_item">
+                            <img src="images/Каик.jpg" alt="kaik">
+                            <h4>Каик</h4>
+                            <p>Каик попугай</p>
+                            <div class="price">51000</div>
+                            <div class="item_shadow">
+                                <a href="#">Смотреть</a>
+                                <button type="button">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="container">
+                <div class="top"></div>
+                <nav class="bottommenu">
+                    <a class="home" href="index.html"><span>Главная</span></a>
+                    <a class="catalog current" href="catalog.html"><span>Каталог</span></a>
+                    <a class="product" href="product.html"><span>Товар</span></a>
+                    <a class="order" href="order.html"><span>Корзина</span></a>
+                    <a class="contacts" href="#"><span>Контакты</span></a>
+                </nav>
+                <p class="copy">&copy; Имярек Имяреков, 2023 год.</p>
+            </div>
+        </footer>
+    </body>
+</html>
